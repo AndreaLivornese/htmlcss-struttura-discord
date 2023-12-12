@@ -111,6 +111,7 @@ section:nth-of-type(2n){
     background-color: #d3d3d3;
 }
 
+/* prime tre section */
 .img-box{
     height: 520px;
     /* test */
@@ -128,5 +129,19 @@ section:nth-of-type(2n){
 
     background-color: #ffc0cb;
 }
+/* fine prime tre section */
+
+/* quarta section */
+
+.sec-box{
+    height: 935px;
+    /* test */
+
+    flex-grow:1;
+
+    background-color: #228b22;
+}
+
+/* fine quarta section */
 
     /* fine main */
