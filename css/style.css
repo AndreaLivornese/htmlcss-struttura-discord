@@ -3,6 +3,30 @@
     margin: 0;
 
     box-sizing: border-box;
+
+    border:1px solid red;
 }
 
     /* reset */
+
+    /* nav */
+
+    nav{
+        padding:16px;
+        
+    }
+    
+    .container{
+        display:flex;
+        justify-content: space-between;
+        
+    }
+
+    nav ul{
+        display: flex;
+        gap:10px;
+
+        list-style-type: none;
+    }
+
+    /* fine nav */
