@@ -20,6 +20,11 @@ body{
     margin-right: auto;
 }
 
+
+.border{
+    border: 2px black dashed;
+}
+
     /* nav */
 
 nav{
@@ -171,8 +176,12 @@ footer .centratura{
 
 .foot-link{
     flex-grow:1;
-    
+
     background-color: #20b2aa;
+}
+
+.foot-link.border{
+    border: 2px dashed white;
 }
 
 .row{
@@ -194,7 +203,7 @@ footer .centratura{
 #row2 button{
     padding:5px;
 
-    
+
     background-color: #ffb6c1;
 
     font-size: 16px;
