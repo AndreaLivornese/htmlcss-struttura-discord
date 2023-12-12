@@ -144,4 +144,30 @@ section:nth-of-type(2n){
 
 /* fine quarta section */
 
+
+/* footer */
+
+footer{
+    padding: 58px 0;
+}
+
+footer .centratura{
+    display: flex;
+
+}
+
+.foot-social{
+    height: 600px;
+/* test */
+    width: 375px;
+
+    background-color: #f08080;
+}
+
+.foot-link{
+flex-grow:1;
+
+background-color: #20b2aa;
+}
+/* fine footer */
     /* fine main */
