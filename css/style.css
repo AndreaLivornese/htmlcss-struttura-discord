@@ -35,7 +35,7 @@ nav{
     background-color:#daa520;
 }
 
-.nav-container #nav-logo, .container #nav-login{
+.nav-container #nav-logo, .nav-container #nav-login{
     padding:14px;
     
     width: 250px;
@@ -58,16 +58,23 @@ nav ul{
     list-style-type: none;
 }
 
+nav ul li a{
+    color:black;
+    text-decoration: none;
+}
+
 .nav-container > *{
     border:2px dashed black;
 }
 
     /* fine nav */
 
+   
+   
     /* header */
 header{
     padding:48px 150px;
-    
+
     background-color: #00008b;
 
 }
