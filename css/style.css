@@ -4,7 +4,7 @@
 
     box-sizing: border-box;
 
-    border:1px solid red;
+    /* border:1px solid red; */
 }
 
     /* reset */
@@ -25,12 +25,14 @@ body{
 nav{
     padding:16px;
     
+    background-color: #add8e6;
 }
 
 .container{
     display:flex;
     justify-content: space-between;
     
+    background-color:#daa520;
 }
 
 .container #nav-logo, .container #nav-login{
@@ -48,10 +50,16 @@ nav ul{
     display: flex;
     gap:10px;
 
+    flex-grow: 1;
+
     justify-content: center;
     align-items: center;
 
     list-style-type: none;
+}
+
+.container > *{
+    border:2px dashed black;
 }
 
     /* fine nav */
